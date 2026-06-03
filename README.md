@@ -44,4 +44,4 @@ properties:
 
     java -jar book-catalog.jar
 
-При первом запуске создаётся администратор admin / admin (пароль смените).
+При первом запуске создаётся администратор admin / admin.
