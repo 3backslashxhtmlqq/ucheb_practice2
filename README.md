@@ -1,4 +1,4 @@
-<img width="1457" height="1573" alt="417-4171156_download-book-stack-icon-free-clipart-library-library-book-icon-transparent-background" src="https://github.com/user-attachments/assets/22f1001c-ee6f-47ab-a591-565dfbd8a75a" />
+<img width="1200" height="1200" alt="books--v2" src="https://github.com/user-attachments/assets/df50d2a3-3729-49ea-9126-8720af3d1b3a" />
 
 # Персональный книжный каталог (Google Books API)
 
