@@ -1,3 +1,5 @@
+<img width="1200" height="1200" alt="books--v2" src="https://github.com/user-attachments/assets/16c1d54b-04b3-4c03-bdf9-a62a4a5eb655" />
+
 # Персональный книжный каталог (Google Books API)
 
 Учебный проект на Java Swing для ведения личных книжных каталогов с ролями «Пользователь» и «Администратор» и импортом книг через Google Books API.
