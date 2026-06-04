@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Страница-1" id="RsCICXj1nEOG2zFRs8Wm">
+    <mxGraphModel dx="1042" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VBAFtEy0R2nj2JCNqlaJ-2" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Пользователь" vertex="1">
+          <mxGeometry height="260" width="390" x="370" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9STEUB2UuW9jcG40Apq7-7" parent="VBAFtEy0R2nj2JCNqlaJ-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="ㅤ" vertex="1">
+          <mxGeometry height="34" width="390" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VBAFtEy0R2nj2JCNqlaJ-4" parent="VBAFtEy0R2nj2JCNqlaJ-2" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="10" width="390" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VBAFtEy0R2nj2JCNqlaJ-5" parent="VBAFtEy0R2nj2JCNqlaJ-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ПросмотретьЛичныйКаталог(): List&amp;lt;Книга&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ДобавитьКнигуВКаталог(книга: Книга): void&lt;/div&gt;&lt;div&gt;+РедактироватьИнформациюОКниге(idКниги: String, новыеДанные: Книга): void&lt;/div&gt;&lt;div&gt;+УдалитьКнигуИзКаталога(idКниги: String): void&lt;/div&gt;&lt;div&gt;+ПоискКниг(запрос: String): List&amp;lt;Книга&amp;gt;&lt;/div&gt;&lt;div&gt;+ИмпортироватьКнигуИзРезультатов(выбраннаяКнига: Книга): void&lt;/div&gt;&lt;div&gt;+ФильтрацияРезультатовПоиска(фильтр: Фильтр): List&amp;lt;Книга&amp;gt;&lt;/div&gt;&lt;div&gt;+ПросмотретьИнформациюОПриложении(): String&lt;/div&gt;&lt;div&gt;+ОставитьВпечатленияОКниге(idКниги: String, текст: String, оценка: int): void&lt;/div&gt;&lt;div&gt;+ВыделитьЦитатыИзКниги(idКниги: String, цитата: String): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="390" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VBAFtEy0R2nj2JCNqlaJ-6" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Администратор" vertex="1">
+          <mxGeometry height="270" width="390" x="370" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="VBAFtEy0R2nj2JCNqlaJ-7" parent="VBAFtEy0R2nj2JCNqlaJ-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="ㅤ" vertex="1">
+          <mxGeometry height="34" width="390" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VBAFtEy0R2nj2JCNqlaJ-8" parent="VBAFtEy0R2nj2JCNqlaJ-6" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="390" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VBAFtEy0R2nj2JCNqlaJ-9" parent="VBAFtEy0R2nj2JCNqlaJ-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ДобавитьПользователяВСписок(пользователь: Пользователь): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+УдалитьПользователяИзСписка(idПользователя: String): void&lt;/div&gt;&lt;div&gt;+НазначитьРольПользователю(idПользователя: String, роль: String): void&lt;/div&gt;&lt;div&gt;+ЗаблокироватьПользователя(idПользователя: String): void&lt;/div&gt;&lt;div&gt;+РазблокироватьПользователя(idПользователя: String): void&lt;/div&gt;&lt;div&gt;+ПросмотретьСписокКаталоговПользователей(): List&amp;lt;Каталог&amp;gt;&lt;/div&gt;&lt;div&gt;+ДобавитьКаталогПользователя(idПользователя: String, каталог: Каталог): void&lt;/div&gt;&lt;div&gt;+РедактироватьКаталогПользователя(idКаталога: String, новыеДанные: Каталог): void&lt;/div&gt;&lt;div&gt;+УдалитьКаталогПользователя(idКаталога: String): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="202" width="390" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="VBAFtEy0R2nj2JCNqlaJ-10" edge="1" parent="1" source="VBAFtEy0R2nj2JCNqlaJ-9" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="9STEUB2UuW9jcG40Apq7-3" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="80" y="460" as="sourcePoint" />
+            <mxPoint x="180" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBAFtEy0R2nj2JCNqlaJ-11" edge="1" parent="1" source="VBAFtEy0R2nj2JCNqlaJ-5" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="9STEUB2UuW9jcG40Apq7-3" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="120" y="60" as="sourcePoint" />
+            <mxPoint x="180" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9STEUB2UuW9jcG40Apq7-3" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Система&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- логин: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- пароль: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Регистрироваться(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Авторизоваться(): void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="110" width="160" x="10" y="290" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
