@@ -6,6 +6,8 @@
 
 ### Логи программы: https://github.com/3backslashxhtmlqq/ucheb_practice2/blob/main/code/untitled1/data/logs.txt
 
+### Отладочные классы программы: https://github.com/3backslashxhtmlqq/ucheb_practice2/tree/main/code/untitled1/src/main/java/org/example/debug
+
 ## Основные возможности
 ### Для пользователя:
 Регистрация и аутентификация (пароли хранятся в виде BCrypt-хэшей)
