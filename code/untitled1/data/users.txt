@@ -1,2 +1,5 @@
 user;1234;USER;false
 admin;admin;ADMIN;false
+user2;usr1;USER;false
+user3;usr1;ADMIN;false
+user5;user5;USER;false
